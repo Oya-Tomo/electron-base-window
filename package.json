@@ -1,0 +1,19 @@
+{
+  "name": "base_window",
+  "version": "1.0.0",
+  "description": "this is base window app for making some good apps. Please copy and use.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Oya-Tomo",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^14.0.0"
+  },
+  "dependencies": {
+    "electron-builder": "^22.11.7",
+    "electron-store": "^8.0.0"
+  }
+}

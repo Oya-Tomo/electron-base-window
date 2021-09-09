@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}
+/* title style from here */
+#title_div {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(50, 50, 50);
+    -webkit-app-region: drag;
+}
+#title_div input {
+    -webkit-app-region: no-drag;
+    width: 14px;
+    height: 14px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 8px 18px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+}
+#quit {
+    right: 0px;
+}
+#quit:hover {
+    background-color: red;
+}
+#resize {
+    right: 50px;
+}
+#resize:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#mini {
+    right: 100px;
+}
+#mini:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
